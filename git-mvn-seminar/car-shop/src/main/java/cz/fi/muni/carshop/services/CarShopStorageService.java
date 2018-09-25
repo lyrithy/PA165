@@ -45,9 +45,10 @@ public interface CarShopStorageService {
 	 * 
 	 * @param car
 	 *            car to be found in storage
+     * @throws cz.fi.muni.carshop.services.RequestedCarNotFoundException
 	 * @throw RequestedCarNotFoundException in case car doesn't exist in the
 	 *        storage
 	 */
-	// void sellCar(Car car) throws RequestedCarNotFoundException;
+	void sellCar(Car car) throws RequestedCarNotFoundException;
 
 }
