@@ -6,7 +6,6 @@
 	<artifactId>git-mvn-seminar</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-
 	<name>git-mvn-seminar</name>
 	<url>http://maven.apache.org</url>
 	<properties>
